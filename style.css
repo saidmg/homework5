@@ -90,5 +90,7 @@ body{
   .hideOnSmall{
     display: none;
   } 
-
+.extendOnSmall{
+  width: 100%;
+}
 }
