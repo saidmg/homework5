@@ -113,7 +113,8 @@
         var rowTime = $(".hour").get(i).id;
         var x = moment().format('H');
         actualTime = parseInt(x);
-        // var actualTime = 12;
+        // for testing
+        // var actualTime = 12; 
         if (rowTime < actualTime) {
           $(`#${i}${i}`).addClass("past");
         }
@@ -126,16 +127,11 @@
       }
     }
     colorArea()
+for(var k =1; k<10; k++){
+  document.querySelector(`.s${k}`).addEventListener("click", triggerButton)
 
-    document.querySelector('.s1').addEventListener("click", triggerButton)
-    document.querySelector('.s2').addEventListener("click", triggerButton)
-    document.querySelector('.s3').addEventListener("click", triggerButton)
-    document.querySelector('.s4').addEventListener("click", triggerButton)
-    document.querySelector('.s5').addEventListener("click", triggerButton)
-    document.querySelector('.s6').addEventListener("click", triggerButton)
-    document.querySelector('.s7').addEventListener("click", triggerButton)
-    document.querySelector('.s8').addEventListener("click", triggerButton)
-    document.querySelector('.s9').addEventListener("click", triggerButton)
+}
+
 
     var arraytest = []
     function triggerButton() {
@@ -172,47 +168,6 @@
       }
     }
     dataOnLoad()
-// var retrievedObject = localStorage.getItem('arraytest');
-// arraytest = JSON.parse(retrievedObject)
-// -------------------------------------------
-// if( localStorage.form ){
-//           var savedForm = JSON.parse( localStorage.form )
-//           console.log( ` found savedForm: `, savedForm )
-
-//           document.querySelector("#first-name").value = savedForm.firstName
-//           document.querySelector("#last-name").value = savedForm.lastName
-//           document.querySelector("#email").value = savedForm.email
-//           document.querySelector("#password").value = savedForm.password
-//         }
-//         // runs on click
-//         var signUpButton = document.querySelector("#sign-up");
-//         signUpButton.addEventListener("click", function(event) {
-//           event.preventDefault();
-
-//           console.log( `[SaveButton] clicked` )
-//           // gather all the INPUTS
-//           // put them in an object
-//           // save that object to localStorage
-
-//           var form = {
-//             row1: $('#00').val(),
-//             row2: $('#00').val(),
-//             row3: $('#00').val(),
-//             row4: $('#00').val(),
-//             row5: $('#00').val(),
-//             row6: $('#00').val(),
-//             row7: $('#00').val(),
-//             row8: $('#00').val(),
-//             row9: $('#00').val()
-
-//           }
-//           console.log( `form contents: `, form )
-//           localStorage.form = JSON.stringify( form )
-//           console.log( `.. form saved as: `, localStorage.form )
-
-//         });
-
-
 
   </script>
 </body>
