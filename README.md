@@ -42,4 +42,4 @@ THEN the saved events persist
 * Screenshots are available inside ./assets/images/
 
 ![GitHub Logo](./Assets/Capture1.JPG)
-![GitHub Logo](./Assets/Capture1.JPG)
+![GitHub Logo](./Assets/Capture2.JPG)
