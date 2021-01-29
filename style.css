@@ -12,15 +12,17 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
-/* body{
+.container{
+ /* background-color: white; */
+}
+body{
   background-image: url('./Assets/wp4831635.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
-} */
+}
 
 .jumbotron {
   text-align: center;
